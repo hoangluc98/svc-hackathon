@@ -14,6 +14,7 @@
     "ant-design-vue": "^3.2.10",
     "axios": "^0.27.2",
     "vue": "^3.2.37",
+    "vue-request": "^1.2.4",
     "vue-router": "^4.0.13",
     "vuex": "^4.0.2"
   },
