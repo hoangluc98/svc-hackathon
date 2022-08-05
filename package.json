@@ -1,0 +1,31 @@
+{
+  "name": "hackathon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
+  },
+  "dependencies": {
+    "ant-design-vue": "^3.2.10",
+    "axios": "^0.27.2",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.13",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "autoprefixer": "^10.4.8",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "postcss": "^8.4.14",
+    "prettier": "2.7.1",
+    "sass": "^1.54.2",
+    "vite": "^3.0.0"
+  }
+}
