@@ -6,15 +6,15 @@ import NotFound from "@/pages/NotFound.vue";
 
 const routes = [
   {
-    path: "/:catchAll(.*)",
+    path: "/svc-hackathon/:catchAll(.*)",
     component: NotFound,
   },
   {
-    path: "/",
+    path: "/svc-hackathon/",
     component: Home,
   },
   {
-    path: "/home",
+    path: "/svc-hackathon/home",
     component: HelloWorld,
   },
 ];
